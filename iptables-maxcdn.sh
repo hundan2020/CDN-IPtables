@@ -1,3 +1,4 @@
+#!/bin/sh
 iptables -I INPUT -s 108.161.176.0/20 -p tcp -m multiport --dports 80,443 -j ACCEPT
 iptables -I INPUT -s 94.46.144.0/20 -p tcp -m multiport --dports 80,443 -j ACCEPT
 iptables -I INPUT -s 146.88.128.0/20 -p tcp -m multiport --dports 80,443 -j ACCEPT
